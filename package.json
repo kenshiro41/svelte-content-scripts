@@ -1,0 +1,36 @@
+{
+  "name": "svelte-content-scripts",
+  "version": "0.0.1",
+  "type": "module",
+  "keywords": [
+    "vite",
+    "chrome",
+    "chrome-extension",
+    "extension",
+    "webext",
+    "webextension",
+    "browser",
+    "browser-extension",
+    "content-scripts",
+    "svelte",
+    "typescript"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.17",
+    "@sveltejs/vite-plugin-svelte": "^2.4.1",
+    "@tsconfig/svelte": "^4.0.1",
+    "@types/chrome": "^0.0.237",
+    "svelte": "^3.59.1",
+    "svelte-check": "^3.4.3",
+    "tslib": "^2.5.3",
+    "typescript": "^5.1.3",
+    "vite": "^4.3.9",
+    "vite-plugin-svgr": "^3.2.0"
+  }
+}
